@@ -33,7 +33,7 @@ stock1	stock2	Correlation	Distance
 where distance is computed as Dist=sqrt(2(1-c)) with c as correlation.
 
 * Folders 'USA22d22s' and 'JPN22d22s' contain cross-correlation matrices computed using non-overlapping time windows with epoch of 22 days while folders 'USA22d5s' and 'JPN22d5s' contain cross-correlation matrices computed using overlapping time windows with epoch of 22 days and overlap of 5 days. These cross-correlation matrices were used in the construction of the networks. 
-
+	#### The above mentioned 'DATA' folder can be accessed from : https://www.imsc.res.in/~asamal/welcome
 * The files USA22d5s.xlsx, USA22d22s.xlsx, JPN22d5s.xlsx and JPN22d22s.xlsx contain dictionaries relating cross-correlation matrices in the folders 'USA22d5s', 'USA22d22s', 'JPN22d5s' and 'JPN22d22s', respectively, and the start date / end date of different cross-correlation matrices. 
 
 ### These codes were written while carrying out research reported in the following manuscripts:
