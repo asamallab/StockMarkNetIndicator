@@ -1,2 +1,4 @@
+static/* linguist-vendored
 *.cpp linguist-detectable=false
 *.cpp linguist-language=Python
+*.py linguist-detectable=true
