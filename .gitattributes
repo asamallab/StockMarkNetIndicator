@@ -1,3 +1,6 @@
+*.cpp   text diff=cpp
 *.cpp linguist-detectable=false
+*.py     text diff=python
 *.py linguist-detectable=true
+
 
