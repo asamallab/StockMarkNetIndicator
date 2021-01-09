@@ -17,8 +17,8 @@ The constructed network is in the edge list form and is passed on for the furthe
 * network_entropy.py : Python script to calculate network entropy using degree and remaining degree distribution.
 * OR-Undir.py : Python script to compute the Ollivier-Ricci curvature of edges in the network.
 * Folder 'louvain-generic' within folder 'CODE' contains the code to compute the Louvain modularity of the network. This is a copy of the open source code made available by the original authors of the method.
-	To run: 
-		(1) ./louvain-generic/convert -i "insert edge file" -o ./temp/$folder/graph.bin -w ./temp/$folder/graph.weights
+	To run:  
+		(1) ./louvain-generic/convert -i "insert edge file" -o ./temp/$folder/graph.bin -w ./temp/$folder/graph.weights  
 		(2) ./louvain-generic/louvain ./temp/$folder/graph.bin -w ./temp/$folder/graph.weights >& ./temp/$folder/graph.tree
 
 ### The following MATLAB 2020a program can be used to compute different traditional market indicators:
@@ -28,11 +28,11 @@ The constructed network is in the edge list form and is passed on for the furthe
 
 * The data was collected from the public domain of Yahoo finance database for two stock markets in two different countries, namely, USA S&P-500 index for 194 stocks and Japanese Nikkei-225 index for 165 stocks spanning a 32-year period from 2 January 1985 (02-01-1985) to 30 December 2016 (30-12-2016). 
 
-* Archived folders 'USA22d22s' and 'JPN22d22s' contain cross-correlation matrices computed using non-overlapping time windows with epoch of 22 days while folders 'USA22d5s' and 'JPN22d5s' contain cross-correlation matrices computed using overlapping time windows with epoch of 22 days and overlap of 5 days. These cross-correlation matrices were used in the construction of the networks. The above-mentioned archived folder can be downloaded from : 
-	(1) Folder 'USA22d22s' -  https://www.imsc.res.in/~asamal/data/StockMarkIndicators/USA22d22s.tar.gz
-	(2) Folder 'USA22d5s'  -  https://www.imsc.res.in/~asamal/data/StockMarkIndicators/USA22d5s.tar.gz
-	(3) Folder 'JPN22d22s' -  https://www.imsc.res.in/~asamal/data/StockMarkIndicators/JPN22d22s.tar.gz
-	(4) Folder 'JPN22d5s'  -  https://www.imsc.res.in/~asamal/data/StockMarkIndicators/JPN22d5s.tar.gz
+* Archived folders 'USA22d22s' and 'JPN22d22s' contain cross-correlation matrices computed using non-overlapping time windows with epoch of 22 days while folders 'USA22d5s' and 'JPN22d5s' contain cross-correlation matrices computed using overlapping time windows with epoch of 22 days and overlap of 5 days. These cross-correlation matrices were used in the construction of the networks. The above-mentioned archived folder can be downloaded from :  
+	(1) Folder 'USA22d22s' -  https://www.imsc.res.in/~asamal/data/StockMarkIndicators/USA22d22s.tar.gz  
+	(2) Folder 'USA22d5s'  -  https://www.imsc.res.in/~asamal/data/StockMarkIndicators/USA22d5s.tar.gz  
+	(3) Folder 'JPN22d22s' -  https://www.imsc.res.in/~asamal/data/StockMarkIndicators/JPN22d22s.tar.gz  
+	(4) Folder 'JPN22d5s'  -  https://www.imsc.res.in/~asamal/data/StockMarkIndicators/JPN22d5s.tar.gz  
 
 * The cross-correlation matrices contained in different files in the above-mentioned archived folders are in the form:
 stock1	stock2	Correlation	Distance
