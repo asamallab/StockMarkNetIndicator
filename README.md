@@ -28,11 +28,15 @@ The constructed network is in the edge list form and is passed on for the furthe
 
 * The data was collected from the public domain of Yahoo finance database for two stock markets in two different countries, namely, USA S&P-500 index for 194 stocks and Japanese Nikkei-225 index for 165 stocks spanning a 32-year period from 2 January 1985 (02-01-1985) to 30 December 2016 (30-12-2016). 
 
-* The cross-correlation matrix in different files in the 'DATA' folder are in the form:
+* Archived folders 'USA22d22s' and 'JPN22d22s' contain cross-correlation matrices computed using non-overlapping time windows with epoch of 22 days while folders 'USA22d5s' and 'JPN22d5s' contain cross-correlation matrices computed using overlapping time windows with epoch of 22 days and overlap of 5 days. These cross-correlation matrices were used in the construction of the networks. The above-mentioned archived folder can be downloaded from : 
+	(1) Folder 'USA22d22s' -  https://www.imsc.res.in/~asamal/data/StockMarkIndicators/USA22d22s.tar.gz
+	(2) Folder 'USA22d5s'  -  https://www.imsc.res.in/~asamal/data/StockMarkIndicators/USA22d5s.tar.gz
+	(3) Folder 'JPN22d22s' -  https://www.imsc.res.in/~asamal/data/StockMarkIndicators/JPN22d22s.tar.gz
+	(4) Folder 'JPN22d5s'  -  https://www.imsc.res.in/~asamal/data/StockMarkIndicators/JPN22d5s.tar.gz
+
+* The cross-correlation matrices contained in different files in the above-mentioned archived folders are in the form:
 stock1	stock2	Correlation	Distance
 where distance is computed as Dist=sqrt(2(1-c)) with c as correlation.
-
-* Folders 'USA22d22s' and 'JPN22d22s' contain cross-correlation matrices computed using non-overlapping time windows with epoch of 22 days while folders 'USA22d5s' and 'JPN22d5s' contain cross-correlation matrices computed using overlapping time windows with epoch of 22 days and overlap of 5 days. These cross-correlation matrices were used in the construction of the networks. 
 
 * The files USA22d5s.xlsx, USA22d22s.xlsx, JPN22d5s.xlsx and JPN22d22s.xlsx contain dictionaries relating cross-correlation matrices in the folders 'USA22d5s', 'USA22d22s', 'JPN22d5s' and 'JPN22d22s', respectively, and the start date / end date of different cross-correlation matrices. 
 
@@ -41,5 +45,4 @@ where distance is computed as Dist=sqrt(2(1-c)) with c as correlation.
 [2] S. Venkatesan, R.P. Vivek-Ananth, R.P. Sreejith, P. Mangalapandi, A.A. Hassanali & A. Samal, Network approach towards understanding the crazing in glassy amorphous polymers, Journal of Statistical Mechanics: Theory and Experiment 043305 (2018).
 [3] A. Samal, R.P. Sreejith, J. Gu, S. Liu, E. Saucan & J. Jost, Comparative analysis of two discretizations of Ricci curvature for complex networks, Scientific Reports 8: 8650 (2018).
 [4] R.P. Sreejith, K. Mohanraj, J. Jost, E. Saucan & A. Samal, Forman curvature for complex networks, Journal of Statistical Mechanics: Theory and Experiment 063206 (2016).
-
 #### Please cite the above manuscripts if you use the codes in this repository for your work.
