@@ -7,7 +7,7 @@
 %% (3) GARCH volatility 
 %% (4) minimum risk Markowitz portfolio
 %% If you are using this code, kindly cite the following article:
-%% A. Samal, H.K. Pharasi, S. J. Ramaia, H. Kannan, E. Saucan, J. Jost & A. Chakraborti, 
+%% A. Samal, H.K. Pharasi, S. J. Ramaia, H. Kannan, E. Saucan, J. Jost & A. Chakraborti, Network geometry and market instability, R. Soc. Open Sci. 8: 201734 (2021).
 %% Network geometry and market instability, (Submitted).
 %% To work with moving epochs, we denote Fr: epoch #; Pr: price time series as input
 
