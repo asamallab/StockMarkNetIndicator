@@ -7,7 +7,7 @@ The constructed network is in the edge list form and is passed on for the furthe
 ## Code Details:
 
 ### The following script can be used to filter the cross-correlation matrices and generate edge files and node files of the filtered networks:
-* mst_wt.py : Python script to generate a weighted or unweighted filtered minimum spanning tree + thresholded network from the weighted network of cross-correlation values. The omponent of the Erdös-Renyi random graph G(n, p n ) in the regime p n = d/n for d a constant greater than 1 (sparse regime) has zero spectral gap as n → ∞. This is in contrast to earlier results showing the existence of a spectral gap when np n = O(log 2 (n)). We also prove that in the regime p n = d/n, for any δ >; 0 the Erdös-Renyi random graph has a positive probability of containing δ-fat triangles as n → ∞, thus showing that these graphs are asymptotically non-hyperbolic.weights are interpreted as distances (costs).
+* mst_wt.py : Python script to generate a weighted or unweighted filtered minimum spanning tree + thresholded network from the weighted network of cross-correlation values.  
 
 ### The following scripts can be used to compute the different network measures for the filtered networks:
 * comm_eff.py : Python script to calculate the communcation efficiency of the network
