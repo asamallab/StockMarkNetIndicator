@@ -12,15 +12,15 @@ The codes in the 'StockMarkNetIndicators' repository can be used to filter cross
 * FormanUndirected.cpp : C++ code to calculate the Forman-Ricci curvature of edges in the network
 * graph_measures.py : Python script to calculate the following measures on the network, namely, Number of edges, Average degree, Average Weighted Degree, Edge Density, Average Clustering coefficient
 * MengerHaantjesUndirected.py : Python script to compute Menger-curvature and Haantjes-curvature for all the edges in an unweighted network
-* network_entropy.py : Python script to calculate network entropy using degree and remaining degree distribution.
-* OR-Undir.py : Python script to compute the Ollivier-Ricci curvature of edges in the network.
-* Folder 'louvain-generic' within folder 'CODE' contains the code to compute the Louvain modularity of the network. This is a copy of the open source code made available by the original authors of the method.
+* network_entropy.py : Python script to calculate network entropy using degree and remaining degree distribution
+* OR-Undir.py : Python script to compute the Ollivier-Ricci curvature of edges in the network
+* Folder 'louvain-generic' within folder 'CODE' contains the code to compute the Louvain modularity of the network; this is a copy of the open source code made available by the original authors of the method
 	To run:  
 		(1) ./louvain-generic/convert -i "insert edge file" -o ./temp/$folder/graph.bin -w ./temp/$folder/graph.weights  
 		(2) ./louvain-generic/louvain ./temp/$folder/graph.bin -w ./temp/$folder/graph.weights >& ./temp/$folder/graph.tree
 
 ### The following MATLAB 2020a program can be used to compute different traditional market indicators:
-* analysis_matlab.m : Matlab codes to generate index log-returns, mean market correlation, GARCH volatility, minimum risk Markowitz portfolio. The moving epochs and the price time series are the input parameters.
+* analysis_matlab.m : Matlab codes to generate index log-returns, mean market correlation, GARCH volatility, minimum risk Markowitz portfolio. The moving epochs and the price time series are the input parameters
 
 ## Data description:
 
@@ -34,7 +34,7 @@ The codes in the 'StockMarkNetIndicators' repository can be used to filter cross
 
 * The cross-correlation matrices contained in different files in the above-mentioned archived folders are in the form:
 stock1	stock2	Correlation	Distance
-where distance is computed as Dist=sqrt(2(1-c)) with c as correlation.
+where distance is computed as Distance=sqrt(2*(1-c)) with c as correlation.
 
 * The files USA22d5s.xlsx, USA22d22s.xlsx, JPN22d5s.xlsx and JPN22d22s.xlsx contain dictionaries relating cross-correlation matrices in the folders 'USA22d5s', 'USA22d22s', 'JPN22d5s' and 'JPN22d22s', respectively, and the start date / end date of different cross-correlation matrices. 
 
