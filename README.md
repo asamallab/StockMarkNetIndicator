@@ -21,11 +21,11 @@ The codes in the 'StockMarkNetIndicators' repository can be used to filter cross
 		(2) ./louvain-generic/louvain ./temp/$folder/graph.bin -w ./temp/$folder/graph.weights >& ./temp/$folder/graph.tree
 
 ### The following MATLAB 2020a program can be used to compute different traditional market indicators:
-* analysis_matlab.m : Matlab code to generate index log-returns, mean market correlation, GARCH volatility, minimum risk Markowitz portfolio. The moving epochs and the price time series are the input parameters to code.
+* analysis_matlab.m: Matlab code to generate index log-returns, mean market correlation, GARCH volatility, minimum risk Markowitz portfolio. The moving epochs and the price time series are the input parameters to code.
 
 ## Data description:
 
-* The data was collected from the public domain of Yahoo finance database for two stock markets in two different countries, namely, USA S&P-500 index for 194 stocks and Japanese Nikkei-225 index for 165 stocks spanning a 32-year period from 2 January 1985 (02-01-1985) to 30 December 2016 (30-12-2016). 
+* The data was collected from the public domain of Yahoo finance database for two stock markets in two different countries, namely, USA S&P-500 index for 194 stocks and the Japanese Nikkei-225 index for 165 stocks spanning a 32-year period from 2 January 1985 (02-01-1985) to 30 December 2016 (30-12-2016). 
 
 * Archived folders 'USA22d22s' and 'JPN22d22s' contain cross-correlation matrices computed using non-overlapping time windows with epoch of 22 days while folders 'USA22d5s' and 'JPN22d5s' contain cross-correlation matrices computed using overlapping time windows with epoch of 22 days and overlap of 5 days. These cross-correlation matrices were used in the construction of the networks. The above-mentioned archived folder can be downloaded from :  
 	(1) Folder 'USA22d22s' -  https://www.imsc.res.in/~asamal/data/StockMarkIndicators/USA22d22s.tar.gz  
@@ -39,9 +39,15 @@ The codes in the 'StockMarkNetIndicators' repository can be used to filter cross
 
 * The files USA22d5s.xlsx, USA22d22s.xlsx, JPN22d5s.xlsx and JPN22d22s.xlsx contain dictionaries relating cross-correlation matrices in the folders 'USA22d5s', 'USA22d22s', 'JPN22d5s' and 'JPN22d22s', respectively, and the start date / end date of different cross-correlation matrices. 
 
-### These codes were written while carrying out research reported in the following manuscripts:
-[1] A. Samal, H.K. Pharasi, S. J. Ramaia, H. Kannan, E. Saucan, J. Jost & A. Chakraborti, Network geometry and market instability, R. Soc. Open Sci. 8: 201734 (2021). https://doi.org/10.1098/rsos.201734  
-[2] S. Venkatesan, R.P. Vivek-Ananth, R.P. Sreejith, P. Mangalapandi, A.A. Hassanali & A. Samal, Network approach towards understanding the crazing in glassy amorphous polymers, Journal of Statistical Mechanics: Theory and Experiment 043305 (2018). https://doi.org/10.1088/1742-5468/aab688  
-[3] A. Samal, R.P. Sreejith, J. Gu, S. Liu, E. Saucan & J. Jost, Comparative analysis of two discretizations of Ricci curvature for complex networks, Scientific Reports 8: 8650 (2018). https://doi.org/10.1038/s41598-018-27001-3  
-[4] R.P. Sreejith, K. Mohanraj, J. Jost, E. Saucan & A. Samal, Forman curvature for complex networks, Journal of Statistical Mechanics: Theory and Experiment 063206 (2016). https://doi.org/10.1088/1742-5468/2016/06/063206  
+## These codes were written while carrying out research reported in the following manuscripts:
+
+[1] A. Samal* <sup>#</sup>, H. K. Pharasi<sup>#</sup>, S. J. Ramaia, H. Kannan, E. Saucan, J. Jost, and A. Chakraborti*, [<i>Network geometry and market instability</i>](https://doi.org/10.1098/rsos.201734), R. Soc. Open Sci. 8(2): 201734 (2021).  
+
+[2] S. Venkatesan<sup>#</sup>, R.P. Vivek-Ananth<sup>#</sup>, R.P. Sreejith, P. Mangalapandi, A.A. Hassanali*, and A. Samal*, [<i>Network approach towards understanding the crazing in glassy amorphous polymers</i>](https://doi.org/10.1088/1742-5468/aab688), Journal of Statistical Mechanics: Theory and Experiment 2018(4):043305 (2018).
+
+[3] A. Samal<sup>#</sup>, R.P. Sreejith<sup>#</sup>, J. Gu, S. Liu, E. Saucan* & J. Jost*, [<i>Comparative analysis of two discretizations of Ricci curvature for complex networks</i>](https://doi.org/10.1038/s41598-018-27001-3), Scientific Reports 8(1):8650 (2018).
+
+[4] R.P. Sreejith, K. Mohanraj, J. Jost*, E. Saucan* & A. Samal*, [<i>Forman curvature for complex networks</i>](https://doi.org/10.1088/1742-5468/2016/06/063206), Journal of Statistical Mechanics: Theory and Experiment 2016(6):063206 (2016).
+
+( <sup>#</sup> Equal contribution, * Corresponding authors)
 #### Please cite the above manuscripts if you use the codes in this repository for your work.
